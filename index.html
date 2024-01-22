@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey's</title>
-    <!-- tailwind installation -->
-    <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- tailwind installation
+    <script src="https://cdn.tailwindcss.com"></script> -->
+
+    <!-- Tailwind and Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +22,11 @@
         *{
             font-family: 'Manrope', sans-serif;
         }
+        /* header{
+            width: 1170px;
+            height: 180px;
+        } */
+
 
 
     </style>
@@ -25,12 +34,30 @@
 
 </head>
 <body>
-    <header>
-        <h1>hello shakillllllllllll</h1>
-
+    <header class="m-auto pb-20 lg:w-3/4 ">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <a class="btn btn-ghost text-xl">Hockey's</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <img class="w-10 h-10" src="Images/search-bar-icon-png-16.png" alt="">
+              <a class="btn">Get Ticket</a>
+            </div>
+          </div>
     </header>
 
-    <main>
+    <main class="m-auto lg:w-3/4">
+        <h1>hhhhhhhhehooooooooooo</h1>
+
 
 
     </main>
