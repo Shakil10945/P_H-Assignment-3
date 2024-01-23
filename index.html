@@ -22,10 +22,12 @@
         *{
             font-family: 'Manrope', sans-serif;
         }
-        /* header{
-            width: 1170px;
-            height: 180px;
-        } */
+        .sec-color{
+          color: rgba(19, 19, 24, 0.60); 
+        }
+        .red-color{
+          color: red;
+        }
 
 
 
@@ -33,7 +35,7 @@
 </head>
 
 <body>
-    <div class="m-auto pb-50 lg:w-3/4 ">
+    <div class="m-auto" style="width: 1170px;">
         <header>
           <div class="navbar bg-base-100">
               <div class="navbar-start">
@@ -58,105 +60,250 @@
           <img src="Images/1.png" alt="">
       </main>
       <!-- Professional Hockeys Club -->
-      <section>
-        <div>
-          <h1>Professional Hockeys Club</h1>
-          <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      <section class="pt-20">
+        <div class="text-center pb-10">
+          <h1 class="font-extrabold text-4xl pb-5">Professional Hockeys Club</h1>
+          <p class="text-base font-medium" style="color: rgba(19, 19, 24, 0.60); ">Our club is fully beginer friendly. We have well trained <br>hockey trianer for all types of learners.</p>
         </div>
-        <div class="text-center">
-          <div class="radial-progress" style="--value:87; color: #FF4240;" role="progressbar"><span style="color: black;">87%</span></div>
-          <div class="radial-progress" style="--value:95;" role="progressbar">95%</div>
-          <div class="radial-progress" style="--value:90;" role="progressbar">90%</div>
-          <div class="radial-progress" style="--value:80;" role="progressbar">80%</div>
+        <hr>
+        <div class="flex space-x-20">
+          <div>
+            <div class="radial-progress" style="--value:87; color: #FF4240; width: 120px; height: 120px;" role="progressbar"><span style="color: black;">87%</span></div>
+            <div>
+              <h1 class="font-semibold text-xl">Prayer</h1>
+              <p class="font-normal text-base sec-color">We provide prayer <br>facility</p>
+            </div>
+          </div>
+          <div>
+            <div class="radial-progress" style="--value:95; color: #0cff5d; width: 120px; height: 120px;" role="progressbar"><span style="color: black;">95%</span></div>
+            <div>
+              <h1 class="font-semibold text-xl">Experienced Coach</h1>
+              <p class="font-normal text-base sec-color">We have experienced <br> coach</p>
+            </div>
+          </div>
+          <div>
+            <div class="radial-progress" style="--value:90; color: #f3a30f; width: 120px; height: 120px;" role="progressbar"><span style="color: black;">90%</span></div>
+            <div>
+              <h1 class="font-semibold text-xl">Senior Player</h1>
+              <p class="font-normal text-base sec-color">Get trained from <br>seniors</p>
+            </div>
+          </div>
+          <div>
+            <div class="radial-progress" style="--value:80; color: #0676f7; width: 120px; height: 120px;" role="progressbar"><span style="color: black;">80%</span></div>
+            <div>
+              <h1 class="font-semibold text-xl">Training Ground</h1>
+              <p class="font-normal text-base sec-color">Get trained in our <br>training ground</p>
+            </div>
+          </div>
         </div>
       </section>
       <!-- Program Sections -->
-      <section>
+      <section class="pt-20 text-center">
         <div>
-          <h1>Program Sections</h1>
-          <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          <h1 class="font-extrabold text-4xl pb-5">Program Sections</h1>
+          <p class="text-base font-medium" style="color: rgba(19, 19, 24, 0.60); ">Program selection is not hastle anymore here. <br>We have enought facility to select.</p>
         </div>
-        <div class="flex">
+        <div class="flex pt-8 gap-4">
           <div><img src="Images/2.png" alt=""></div>
           <div><img src="Images/3.png" alt=""></div>
         </div>
-        <div>
+        <div class="pt-4">
           <div><img src="Images/4.png" alt=""></div>
         </div>
       </section>
           <!-- Our New Products -->
-      <section>
+      <section class="pt-20 text-center">
         <div>
-          <h1>Our New Products</h1>
-          <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          <h1 class="font-extrabold text-4xl pb-5">Our New Products</h1>
+          <p class="text-base font-medium" style="color: rgba(19, 19, 24, 0.60); ">Our new products are really eco friendly and durable. <br>Amazing thing is that it is fine.</p>
         </div>
         <div>
-          <div class="flex">
+          <!-- 1st row -->
+          <div class="flex gap-4 flex-col lg:flex-row p-3">
+            <!-- 1st pic -->
             <div class="card card-side bg-base-100 shadow-xl">
               <figure><img src="Images/5.png" alt=""/></figure>
-              <div class="card-body">
-                <h2 class="card-title">New movie is released!</h2>
-                <p>Click the button to watch on Jetflix app.</p>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Watch</button>
+              <div class="card-body text-left">
+                <div class="flex gap-2">
+                  <div class="flex">
+                    <div><img style="width:24px; height: 24px" src="Images/star.png" alt=""></div>
+                    <div> 4.9</div>
+                  </div>
+                  <div class="flex"> 
+                    <div><img style="width:24px; height: 24px" src="Images/view.png" alt=""></div>
+                    <div> 79</div>
+                  </div>
+                  <div class="flex"> 
+                    <div><img style="width:24px; height: 24px" src="Images/love.png" alt=""></div>
+                    <div> 36</div>
+                  </div>
+                </div>
+                <h2 class="card-title">Jacket for men</h2>
+                <p>Click here to see more</p>
+                <div class="flex">
+                  <div class="font-extrabold text-lg red-color">Price- $19.00</div>
+                  <div class="flex">
+                    <div><img style="width: 20px; height: 20px;" src="Images/shopping.png" alt=""></div>
+                    <div class="font-medium text-base sec-color">Delivery Fee: Free</div>
+                  </div>
                 </div>
               </div>
             </div>
+            <!-- 2nd pic -->
             <div class="card card-side bg-base-100 shadow-xl">
               <figure><img src="Images/6.png" alt=""/></figure>
-              <div class="card-body">
-                <h2 class="card-title">New movie is released!</h2>
-                <p>Click the button to watch on Jetflix app.</p>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Watch</button>
+              <div class="card-body text-left">
+                <div class="flex gap-2">
+                  <div class="flex">
+                    <div><img style="width:24px; height: 24px" src="Images/star.png" alt=""></div>
+                    <div> 4.9</div>
+                  </div>
+                  <div class="flex"> 
+                    <div><img style="width:24px; height: 24px" src="Images/view.png" alt=""></div>
+                    <div> 79</div>
+                  </div>
+                  <div class="flex"> 
+                    <div><img style="width:24px; height: 24px" src="Images/love.png" alt=""></div>
+                    <div> 36</div>
+                  </div>
+                </div>
+                <h2 class="card-title">Jacket for women</h2>
+                <p>Click here to see more</p>
+                <div class="flex">
+                  <div class="font-extrabold text-lg red-color">Price- $22.00</div>
+                  <div class="flex">
+                    <div><img style="width: 20px; height: 20px;" src="Images/shopping.png" alt=""></div>
+                    <div class="font-medium text-base sec-color">Delivery Fee: Free</div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="flex">
+          <!-- 2nd row -->
+          <div class="flex gap-4 flex-col lg:flex-row p-3">
+            <!-- 1st pic -->
             <div class="card card-side bg-base-100 shadow-xl">
               <figure><img src="Images/7.png" alt=""/></figure>
-              <div class="card-body">
-                <h2 class="card-title">New movie is released!</h2>
-                <p>Click the button to watch on Jetflix app.</p>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Watch</button>
+              <div class="card-body text-left">
+                <div class="flex gap-2">
+                  <div class="flex">
+                    <div><img style="width:24px; height: 24px" src="Images/star.png" alt=""></div>
+                    <div> 4.9</div>
+                  </div>
+                  <div class="flex"> 
+                    <div><img style="width:24px; height: 24px" src="Images/view.png" alt=""></div>
+                    <div> 79</div>
+                  </div>
+                  <div class="flex"> 
+                    <div><img style="width:24px; height: 24px" src="Images/love.png" alt=""></div>
+                    <div> 36</div>
+                  </div>
+                </div>
+                <h2 class="card-title">Cap</h2>
+                <p>Click here to see more</p>
+                <div class="flex">
+                  <div class="font-extrabold text-lg red-color">Price- $9.50</div>
+                  <div class="flex">
+                    <div><img style="width: 20px; height: 20px;" src="Images/shopping.png" alt=""></div>
+                    <div class="font-medium text-base sec-color">Delivery Fee: Free</div>
+                  </div>
                 </div>
               </div>
             </div>
+            <!-- 2nd pic -->
             <div class="card card-side bg-base-100 shadow-xl">
-              <figure><img src="Images/8.png" alt="Movie"/></figure>
-              <div class="card-body">
-                <h2 class="card-title">New movie is released!</h2>
-                <p>Click the button to watch on Jetflix app.</p>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Watch</button>
+              <figure><img src="Images/8.png" alt=""/></figure>
+              <div class="card-body text-left">
+                <div class="flex gap-2">
+                  <div class="flex">
+                    <div><img style="width:24px; height: 24px" src="Images/star.png" alt=""></div>
+                    <div> 4.9</div>
+                  </div>
+                  <div class="flex"> 
+                    <div><img style="width:24px; height: 24px" src="Images/view.png" alt=""></div>
+                    <div> 79</div>
+                  </div>
+                  <div class="flex"> 
+                    <div><img style="width:24px; height: 24px" src="Images/love.png" alt=""></div>
+                    <div> 36</div>
+                  </div>
+                </div>
+                <h2 class="card-title">Jersy</h2>
+                <p>Click here to see more</p>
+                <div class="flex">
+                  <div class="font-extrabold text-lg red-color">Price- $17.00</div>
+                  <div class="flex">
+                    <div><img style="width: 20px; height: 20px;" src="Images/shopping.png" alt=""></div>
+                    <div class="font-medium text-base sec-color">Delivery Fee: Free</div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="flex">
+          <!-- 3rd row -->
+          <div class="flex gap-4 flex-col lg:flex-row p-3">
+            <!-- 1st pic -->
             <div class="card card-side bg-base-100 shadow-xl">
-              <figure><img src="Images/9.png" alt="Movie"/></figure>
-              <div class="card-body">
-                <h2 class="card-title">New movie is released!</h2>
-                <p>Click the button to watch on Jetflix app.</p>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Watch</button>
+              <figure><img src="Images/9.png" alt=""/></figure>
+              <div class="card-body text-left">
+                <div class="flex gap-2">
+                  <div class="flex">
+                    <div><img style="width:24px; height: 24px" src="Images/star.png" alt=""></div>
+                    <div> 4.9</div>
+                  </div>
+                  <div class="flex"> 
+                    <div><img style="width:24px; height: 24px" src="Images/view.png" alt=""></div>
+                    <div> 79</div>
+                  </div>
+                  <div class="flex"> 
+                    <div><img style="width:24px; height: 24px" src="Images/love.png" alt=""></div>
+                    <div> 36</div>
+                  </div>
+                </div>
+                <h2 class="card-title">Helmet</h2>
+                <p>Click here to see more</p>
+                <div class="flex">
+                  <div class="font-extrabold text-lg red-color">Price- $48.59</div>
+                  <div class="flex">
+                    <div><img style="width: 20px; height: 20px;" src="Images/shopping.png" alt=""></div>
+                    <div class="font-medium text-base sec-color">Delivery Fee: Free</div>
+                  </div>
                 </div>
               </div>
             </div>
+            <!-- 2nd pic -->
             <div class="card card-side bg-base-100 shadow-xl">
-              <figure><img src="Images/10.png" alt="Movie"/></figure>
-              <div class="card-body">
-                <h2 class="card-title">New movie is released!</h2>
-                <p>Click the button to watch on Jetflix app.</p>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Watch</button>
+              <figure><img src="Images/10.png" alt=""/></figure>
+              <div class="card-body text-left">
+                <div class="flex gap-2">
+                  <div class="flex">
+                    <div><img style="width:24px; height: 24px" src="Images/star.png" alt=""></div>
+                    <div> 4.9</div>
+                  </div>
+                  <div class="flex"> 
+                    <div><img style="width:24px; height: 24px" src="Images/view.png" alt=""></div>
+                    <div> 79</div>
+                  </div>
+                  <div class="flex"> 
+                    <div><img style="width:24px; height: 24px" src="Images/love.png" alt=""></div>
+                    <div> 36</div>
+                  </div>
+                </div>
+                <h2 class="card-title">Football</h2>
+                <p>Click here to see more</p>
+                <div class="flex">
+                  <div class="font-extrabold text-lg red-color">Price- $11.60</div>
+                  <div class="flex">
+                    <div><img style="width: 20px; height: 20px;" src="Images/shopping.png" alt=""></div>
+                    <div class="font-medium text-base sec-color">Delivery Fee: Free</div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+
+          
+          
         </div>
       </section>
       <!-- client's question -->
