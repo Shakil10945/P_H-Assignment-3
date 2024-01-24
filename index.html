@@ -35,7 +35,7 @@
 </head>
 
 <body>
-    <div class="m-auto" style="width: 1170px;">
+    <div class="m-auto w-full lg:w-[1170px]">
         <header>
           <div class="navbar bg-base-100">
               <div class="navbar-start">
@@ -355,8 +355,8 @@
           <h1 class="font-extrabold text-4xl pb-5">Get In Touch</h1>
           <p class="text-base font-medium" style="color: rgba(19, 19, 24, 0.60); ">You can write to us about anything</p>
         </div>
-        <div class="flex">
-          <div class="pb-15">
+        <div class="flex flex-col lg:flex-row">
+          <div class="pb-15 w-1/2 lg:w-full">
             <div style="width: 374px; height: 216px; border-radius: 16px; background: rgba(188, 237, 109, 0.10);">
             <div><img src="Images/Group 1171275317.png" alt=""></div>
             <div style="color: rgba(19, 19, 24, 0.40); ">Phone Number</div>
@@ -397,50 +397,56 @@
           </div>
         </div>
         <!-- SEction-8 -->
-        <div class="text-center">
-          <h1>Socical Media</h1>
-          <div class="flex gap-4 text-center m-auto items-center justify-items-center lg:place-content-center pt-3">
-            <img style="width: 24px; height: 24px;" src="Images/fb.png" alt="">
-            <img style="width: 24px; height: 24px;" src="Images/X.png" alt="">
-            <img style="width: 24px; height: 24px;" src="Images/insta.png" alt="">
-            <img style="width: 24px; height: 24px;" src="Images/github.png" alt="">
+        <section class="w-full lg:w-full">
+          <div class="text-center place-content-center">
+            <h1 class="font-extrabold text-xl">Socical Media</h1>
+            <div class="flex gap-4 place-content-center lg:place-content-center pt-3">
+              <img style="width: 24px; height: 24px;" src="Images/fb.png" alt="">
+              <img style="width: 24px; height: 24px;" src="Images/X.png" alt="">
+              <img style="width: 24px; height: 24px;" src="Images/insta.png" alt="">
+              <img style="width: 24px; height: 24px;" src="Images/github.png" alt="">
+            </div>
           </div>
-        </div>
+        </section>
+        
       </section>
     </div>
 
-    <footer class="pt-20">
-      <footer class="footer p-10 bg-base-200 text-base-content">
+    <footer class="pt-20  ">
+      <footer class="footer p-10 bg-black text-base-content place-content-center justify-between flex flex-col w-full lg:flex-row w-full">
         <nav>
-          <header class="footer-title">Get In Touch</header> 
-          <a class="link link-hover">We are always for you</a>
+          <header class="footer-title font-extrabold text-3xl text-white">Get In Touch</header> 
+          <a class="link link-hover font-medium text-white">We are always for you</a>
           <div class="flex">
             <img style="width: 20px; height: 20px;" src="Images/Group 1171275317.png" alt="">
-            <a class="link link-hover">(+62) 123-321-543</a>
+            <a class="link link-hover font-medium text-white">(+62) 123-321-543</a>
           </div>
           <div class="flex">
             <img style="width: 20px; height: 20px;" src="Images/Group 1171275318.png" alt="">
-            <a class="link link-hover">hockeyz@gmail.com</a>
+            <a class="link link-hover font-medium text-white">hockeyz@gmail.com</a>
           </div>
         </nav> 
+        
+        <div class="flex gap-10 lg:gap-20">
+            <nav>
+            <header class="footer-title font-extrabold text-3xl text-white">Company</header> 
+            <a class="link link-hover font-medium text-white">About us</a><br>
+            <a class="link link-hover font-medium text-white">Contact</a><br>
+            <a class="link link-hover font-medium text-white">Jobs</a><br>
+            <a class="link link-hover font-medium text-white">Press kit</a>
+            </nav> 
+            <nav>
+              <header class="footer-title font-extrabold text-3xl text-white">Legal</header> 
+              <a class="link link-hover font-medium text-white">Terms of use</a><br>
+              <a class="link link-hover font-medium text-white">Privacy policy</a><br>
+              <a class="link link-hover font-medium text-white">Cookie policy</a>
+            </nav>
+        </div>
         <nav>
-          <header class="footer-title">Company</header> 
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Contact</a>
-          <a class="link link-hover">Jobs</a>
-          <a class="link link-hover">Press kit</a>
-        </nav> 
-        <nav>
-          <header class="footer-title">Legal</header> 
-          <a class="link link-hover">Terms of use</a>
-          <a class="link link-hover">Privacy policy</a>
-          <a class="link link-hover">Cookie policy</a>
-        </nav>
-        <nav>
-          <header class="footer-title">Support</header> 
-          <a class="link link-hover">Visit us</a>
-          <a class="link link-hover">Invest in it</a>
-          <a class="link link-hover">Career</a>
+          <header class="footer-title font-extrabold text-3xl text-white">Support</header> 
+          <a class="link link-hover font-medium text-white">Visit our office</a>
+          <a class="link link-hover font-medium text-white">Invest our comany</a>
+          <a class="link link-hover font-medium text-white">Career track now</a>
         </nav>
       </footer>
 
